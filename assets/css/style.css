@@ -21,13 +21,13 @@
 }
 
 @font-face {
-    font-family: yael2;
-    src: url(/assets/fonts/DMSans_36pt-Light.ttf);
+    font-family: 'yael2';
+    src: url('/assets/fonts/DMSans_36pt-Light.ttf');
 }
  
 @font-face {
-    font-family:yael1; ;
-    src: url(/assets/fonts/DMSans-Bold.ttf);
+    font-family:'yael1'; ;
+    src: url('/assets/fonts/DMSans-Bold.ttf');
 }
 
 
