@@ -8,49 +8,19 @@
 
 /* FONT
 ================================================== */
-@font-face {
-  font-family: 'fontello';
-  src: url('../fonts/fontello.eot?37927580');
-  src: url('../fonts/fontello.eot?37927580#iefix') format('embedded-opentype'),
-       url('../fonts/fontello.woff2?37927580') format('woff2'),
-       url('../fonts/fontello.woff?37927580') format('woff'),
-       url('../fonts/fontello.ttf?37927580') format('truetype'),
-       url('../fonts/fontello.svg?37927580#fontello') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
+
 
 @font-face {
     font-family: 'yael2';
-    src: url('../fonts/dmsans_36pt-Light.ttf');
+    src: url('../fonts/dmsans_36pt-Light.woff');
 }
  
 @font-face {
     font-family:'yael1'; ;
-    src: url('../fonts/dmsans-Bold.ttf');
+    src: url('../fonts/dmsans-Bold.woff');
 }
 
 
-
- 
- [class^="icon-"]:before, [class*=" icon-"]:before {
-  font-family: "fontello";
-  font-style: normal;
-  font-weight: normal;
-  speak: none;
-  display: inline-block;
-  text-decoration: inherit;
-  width: 1em;
-  margin-right: .2em;
-  text-align: center;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1em;
-  margin-left: .2em;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
- 
 .icon-twitter:before { content: '\f099'; } /* '' */
 .icon-facebook:before { content: '\f09a'; } /* '' */
 .icon-gplus:before { content: '\f0d5'; } /* '' */
