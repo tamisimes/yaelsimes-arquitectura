@@ -273,6 +273,7 @@ html, body {
 .site-section p {
     margin-bottom: 35px;
     font-family: yael2;
+    text-align: justify;
 }
 
 /* Section: Skills */
@@ -286,7 +287,7 @@ html, body {
 
 .skill h4 {
     font-size: 24px;
-    text-transform: uppercase;
+    font-family: yael2;
     margin: 0 0 15px;
 }
 
@@ -310,7 +311,7 @@ html, body {
 
 .section-services:before {
     content: '';
-    background: url(../img/services-bg.jpg) no-repeat fixed center / cover;
+    background: url(../img/41.jpg.png) no-repeat fixed center / cover;
     width: 100%;
     height: 400px; 
     position: absolute;
@@ -346,6 +347,11 @@ html, body {
 .service p {
     color: #000;
     margin-bottom: 0;
+    text-align: justify;
+}
+
+.icono {
+    width: 20%;
 }
 
 /* Section: Portfolio */
@@ -427,6 +433,8 @@ html, body {
 .section-portfolio .btn {
     margin-top: 10px;
 }
+
+
 
 /* Modal */
 .modal {
